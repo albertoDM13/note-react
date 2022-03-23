@@ -23,6 +23,7 @@ p {
 .BlockText {
   width: 80%;
   height: 15vh;
+  outline: none;
   display: flexbox;
 }
 
@@ -34,4 +35,8 @@ p {
 .BlockText,
 .buttonAdd {
   border: none;
+}
+
+.buttonAdd :hover {
+  background-color: beige;
 }
